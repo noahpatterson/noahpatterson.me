@@ -57,11 +57,9 @@ html {
     }
 }
 
-
-
 body {
     font-family: "MavenProLight-300", serif;
-    background-color: #078691;
+    background: image-url('crossword-color.png') #078691;
     color: #2B4146;
     height: 100%;
     width: 100%;
@@ -201,7 +199,7 @@ body {
         display: block;
         order: 2;
         width: auto;
-        background-color: #078691;
+        background-color: inherit;
         border: none;
         margin-top: 2.5em;
         margin-left: 1.5em;

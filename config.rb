@@ -71,6 +71,12 @@
 # Reload the browser automatically whenever files change
  activate :livereload
 
+#autoprefixer
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+  #config.cascade  = false
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -96,7 +102,13 @@ configure :build do
   # activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+  # activate :relative_assetso
+
+  #autoprefixer
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+  #config.cascade  = false
+end
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"

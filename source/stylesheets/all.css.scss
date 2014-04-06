@@ -1,0 +1,257 @@
+@import "normalize";
+
+*, *:before, *:after  {
+   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "KlinicSlabBold";
+  src: url("fonts/KlinicSlabBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "KlinicSlabMedium";
+  src: url("fonts/KlinicSlabMedium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MavenProLight-300";
+  src: url("fonts/MavenProLight-300.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MavenProLight-200";
+  src: url("fonts/MavenProLight-200.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MavenProLight-100";
+  src: url("fonts/MavenProLight-100.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.ruby-style {
+    margin: 0;
+    font-family: "MavenProLight-300", sans-serif;
+    color: #33BEB1;
+    a {
+       text-decoration: none;
+       &:visited {
+        color: inherit;
+       }
+    }
+}
+
+
+
+body {
+    font-family: "MavenProLight-300", serif;
+    background-color: #078691;
+    color: #2B4146;
+    height: 100%;
+    width: 100%;
+    font-size: 1.25em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.main-nav {
+    display: none;
+    order: 2;
+    text-align: center;
+    width: 100%;
+    background-color: #33BEB1;
+    border-bottom: 2px solid #000;
+    padding: 1em;
+    margin-top: 1px;
+
+    ul {
+        list-style-type: none; 
+        margin: 0;
+        padding: 0;
+        }
+
+    li {
+        display: inline-block;
+        margin-right: .5em;
+        }
+
+    span {
+        display: none;
+    }
+}
+
+.intro {
+    margin-top: 1em;
+    order: 3;
+    width: 100%;
+
+    h1, h2 {
+        font-family: "MavenProLight-300", sans-serif;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .about {
+        margin: 1.25em;
+    }
+
+    .heredoc-top {
+        margin-bottom: .5em;
+    }
+
+    .heredoc-btm {
+        margin-top: .5em;
+    }
+}
+
+.circle-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2B4146;
+    border: 2px solid #2B4146;
+    padding: .3em .4em;
+    border-radius: 20px;
+    font-family: "MavenProLight-300", sans-serif;
+
+     &:active, &:hover {
+        color: #fff;
+        background-color: #078691;
+        border-color: #fff;
+    }
+
+    .label {
+        display: none;
+        }
+}
+
+.open-menu {
+    order: 1;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: #2B4146;
+    padding: 19px;
+
+    .close-btn {
+        display: none;
+    }
+
+    .circle-link {
+        border-color: #FFF;
+        color: #FFF;
+    }
+}
+
+// @media (min-width: 870px) {
+//     .intro {
+//         width: 50%;
+
+//         h1 {
+//         font-size: 2.5em;
+//         }
+
+//         h2 {
+//             font-size: 2em;
+//         }
+//     }
+// }
+
+@media (min-width: 870px) {
+
+    .wrapper {
+        justify-content: center;
+    }
+
+    .main-nav {
+        display: block;
+        order: 2;
+        width: auto;
+        background-color: #078691;
+        border: none;
+        margin-top: 2.5em;
+        margin-left: 1.5em;
+        position: relative;
+
+        .link_to_example {
+            font-family: "MavenProLight-300", sans-serif;
+            color: #33BEB1;
+            display: inline;
+            a {
+                text-decoration: none;
+                &:visited {
+                    color: inherit;
+                }
+            }
+        }
+
+        // // &:before {
+        //     // font-family: "KlinicSlabBold", sans-serif;
+        //     color: #33BEB1;
+        //     position: absolute;
+        //     content: "<%= link_to ";
+        //     left: -110px;
+        // }
+
+        .link_to_start {
+            position: absolute;
+            left: -100px;
+        }
+    }
+
+    .intro {
+        order: 1;
+        width: 50%;
+    }
+
+    .circle-link {
+        color: #2B4146;
+         &:active, &:hover {
+            background-color: #33BEB1;
+        }
+    }
+
+    .open-menu {
+        display: none;
+    }
+}
+
+
+
+
+
+

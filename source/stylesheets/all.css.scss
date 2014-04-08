@@ -37,8 +37,9 @@
   font-style: normal;
 }
 
-html {
+html, body {
     height: 100%;
+    min-height: 100%;
 }
 
 .center {
@@ -58,38 +59,29 @@ html {
 }
 
 body {
-    font-family: "MavenProLight-300", serif;
     background: image-url('crossword-color.png') #078691;
+    font-family: "MavenProLight-300", serif;
     color: #2B4146;
-    height: 100%;
     width: 100%;
     font-size: 1.25em;
+    
 }
 
-.wrapper {
+/*header*/
+
+header {
+    
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    // width: 100%;
+    // height: 100%;
 }
 
+/*nav*/
 .main-nav {
-    display: none;
     order: 2;
     text-align: center;
-    width: 100%;
-    background-color: #33BEB1;
-    border-bottom: 2px solid #000;
-    padding: 1em;
     margin-top: 1px;
-
-    ul {
-        list-style-type: none; 
-        margin: 0;
-        padding: 0;
-        }
 
     li {
         display: inline-block;
@@ -99,15 +91,56 @@ body {
     span {
         display: none;
     }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    ul {
+        display: none;
+        width: 100%;
+        background-color: #33BEB1;
+        list-style-type: none; 
+        margin: 0;
+        padding: 1em;
+        border-bottom: 2px solid #000;
+        }
+}
+
+/*nav: article view*/
+.article-view {
+    
+}
+
+.title-bar {
+    @extend .center;
+    order: 3;
+    margin-bottom: 1em;
+    text-decoration: none;
+    color: inherit;
+    // height: 100%;
+    h1, h2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    h1 {
+        margin-top: .5em;
+    }
+}
+
+/*body*/
+.wrapper {
+    height: 100%;
 }
 
 .intro {
     margin-top: 1em;
-    order: 3;
+    order: 4;
     width: 100%;
+    // height: 100%;
 
     h1, h2 {
-        font-family: "MavenProLight-300", sans-serif;
         letter-spacing: 1px;
         margin: 0;
     }
@@ -175,19 +208,51 @@ body {
     }
 }
 
-// @media (min-width: 870px) {
-//     .intro {
-//         width: 50%;
+//blog entries
+.blog-entries {
+    order: 3;
+    background-color: #fff;
+    width: 100%;
+    ol {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
 
-//         h1 {
-//         font-size: 2.5em;
-//         }
+    li {
+        border-bottom: solid 1px #078691;
+        padding: 1em 1em 0 1em;
+        h2 {
+            margin: 0 .5em; 
+        }
+        p {
+            // @extend .center;
+        }
+    }
 
-//         h2 {
-//             font-size: 2em;
-//         }
-//     }
-// }
+    a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+}
+
+//articles
+.article {
+    order: 3;
+    height: 100%;
+    padding: 1em;
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    background-color: #fff;
+}
+
+footer {
+    background-color: #fff;
+}
 
 @media (min-width: 870px) {
 
@@ -196,15 +261,22 @@ body {
     }
 
     .main-nav {
-        display: block;
-        order: 2;
-        width: auto;
+        display: flex;
+        flex-direction: row;
+        order: 1;
+        // width: auto;
         background-color: inherit;
         border: none;
         margin-top: 2.5em;
         margin-left: 1.5em;
-        position: relative;
-
+        
+        ul {
+            // flex: 1 0 0;
+            order: 2;
+            // align-self: flex-end;
+            // display: block;
+        }
+        
         .link_to_example {
             font-family: "MavenProLight-300", sans-serif;
             color: #33BEB1;
@@ -216,14 +288,6 @@ body {
                 }
             }
         }
-
-        // // &:before {
-        //     // font-family: "KlinicSlabBold", sans-serif;
-        //     color: #33BEB1;
-        //     position: absolute;
-        //     content: "<%= link_to ";
-        //     left: -110px;
-        // }
 
         .link_to_start {
             position: absolute;
@@ -246,6 +310,26 @@ body {
     .open-menu {
         display: none;
     }
+
+    //blog entries
+    .blog-entries {
+        order: 2;
+        // margin: 0;
+        // padding: 0;
+    }
+
+    /*nav: article view*/
+    .article-view {
+        
+    }
+
+    .title-bar {
+        order: 1;
+        // flex: 2 0 0;
+        // align-self: flex-start;
+    }
+
+
 }
 
 

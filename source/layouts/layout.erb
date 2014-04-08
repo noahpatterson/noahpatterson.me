@@ -16,7 +16,59 @@
   </head>
   
   <body class="<%= page_classes %>">
-    <%= yield %>
+  <!-- <div class="wrapper"> -->
+  <header>
+      <div class="open-menu">
+          <span class='open-btn circle-link'><i class=" fa fa-bars"></i></span>
+          <span class="close-btn circle-link"><i class=" fa fa-times"></i></span>
+      </div>
+
+      <%= partial 'layouts/title_bar' %>
+
+      <nav class="main-nav">
+          <ul>
+              <span class="link_to_example link_to_start hint--top ruby-style" data-hint="Example: Rails link_to">
+                  <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to" alt="Example of a rails link_to method">&lt%= link_to</a>
+              </span>
+              <li >
+                  <!-- <button class='blog-link circle-link'>Blog</button> -->
+                  <%= link_to("Blog", "/blog" , :class => 'circle-link blog-link') %>
+                  <!-- <a class='circle-link' href="/blog">Blog</a> -->
+              </li>
+              <li>
+                  <a class='circle-link' href="https://twitter.com/albinosquirrel" title="Noah Patterson's Twitter">
+                      <i class="fa fa-twitter"></i>
+                      <span class="label">Twitter</span>
+                  </a>
+              </li>
+              <li>
+                  <a class='circle-link' href="https://github.com/noahpatterson" title="Noah Patterson's Github">
+                      <i class="fa fa-github"></i>
+                      <span class="label">Github</span>
+                  </a>
+              </li>
+              <li>
+                  <a class='circle-link' href="mailto:n@noahpatterson.me" title="Noah Patterson's Email">
+                      <i class="fa fa-envelope"></i>
+                      <span class="label">Email</span>
+                  </a>
+              </li>
+              <span class="link_to_example hint--top ruby-style" data-hint="Example: Rails link_to">
+                  <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to" alt="Example of a rails link_to method">%&gt</a>
+              </span>
+          </ul>
+      </nav>
+  </header>
+
+    <div class="wrapper">
+        <%= yield %>
+    </div>
+
+    <footer>
+        <p>Inspiration from <%= link_to "Uno", 'https://github.com/daleanthony/Uno' %></p>
+                
+        <p>Built with <%= link_to 'Middleman', 'http://middlemanapp.com/' %></p>
+    </footer>
   </body>
   <%= javascript_include_tag  "all" %>
 </html>

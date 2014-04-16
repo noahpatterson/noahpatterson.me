@@ -16,8 +16,7 @@
   </head>
   
   <body class="<%= page_classes %>">
-  <!-- <div class="wrapper"> -->
-  <header>
+    <header>
       <div class="open-menu">
           <span class='open-btn circle-link'><i class=" fa fa-bars"></i></span>
           <span class="close-btn circle-link"><i class=" fa fa-times"></i></span>
@@ -58,17 +57,11 @@
               </span>
           </ul>
       </nav>
-  </header>
-
+    </header>
     <div class="wrapper">
         <%= yield %>
     </div>
-
-    <footer>
-        <p>Inspiration from <%= link_to "Uno", 'https://github.com/daleanthony/Uno' %></p>
-                
-        <p>Built with <%= link_to 'Middleman', 'http://middlemanapp.com/' %></p>
-    </footer>
+    <%= partial 'layouts/footer' %>
   </body>
   <%= javascript_include_tag  "all" %>
 </html>

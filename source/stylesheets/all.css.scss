@@ -37,9 +37,7 @@
   font-style: normal;
 }
 
-html, body {
-    height: 100%;
-    min-height: 100%;
+html {
 }
 
 .center {
@@ -59,12 +57,14 @@ html, body {
 }
 
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     background: image-url('crossword-color.png') #078691;
     font-family: "MavenProLight-300", serif;
     color: #2B4146;
     width: 100%;
     font-size: 1.25em;
-    
 }
 
 /*header*/
@@ -73,8 +73,6 @@ header {
     
     display: flex;
     flex-direction: column;
-    // width: 100%;
-    // height: 100%;
 }
 
 /*nav*/
@@ -118,7 +116,6 @@ header {
     margin-bottom: 1em;
     text-decoration: none;
     color: inherit;
-    // height: 100%;
     h1, h2 {
         padding: 0;
         margin: 0;
@@ -131,14 +128,17 @@ header {
 
 /*body*/
 .wrapper {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    // height: 100%;
+    // background-color: #fff;
 }
 
 .intro {
     margin-top: 1em;
     order: 4;
     width: 100%;
-    // height: 100%;
 
     h1, h2 {
         letter-spacing: 1px;
@@ -159,6 +159,9 @@ header {
 
     .about {
         margin: 1.25em;
+        a {
+            color: #33BEB1;
+        }
     }
 
     .heredoc-top {
@@ -226,7 +229,7 @@ header {
             margin: 0 .5em; 
         }
         p {
-            // @extend .center;
+
         }
     }
 
@@ -234,24 +237,45 @@ header {
             text-decoration: none;
             color: inherit;
         }
+    p {
+        color: gray;    
+    }
 
+}
+
+.article_date {
+    font-size: 18px;
 }
 
 //articles
 .article {
     order: 3;
-    height: 100%;
+    // min-height: 100%;
+    flex: 1;
     padding: 1em;
     p {
         margin: 0;
         padding: 0;
     }
-
     background-color: #fff;
 }
 
+/*footer*/
 footer {
-    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    order: 4;
+    background-color: #2B4146;
+    padding: .5em;
+    p {
+        margin:0;
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
 }
 
 @media (min-width: 870px) {

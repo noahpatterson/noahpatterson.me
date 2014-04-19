@@ -139,6 +139,6 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
 end
 
-  activate :spellcheck
+  # activate :spellcheck
 
   activate :imageoptim

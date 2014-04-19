@@ -26,7 +26,7 @@ The WMATA Nextbus Finder is used by people in Washington, DC to find when a publ
 
 Just having these options for public transit is extremely convenient, I use the Finder all the time. However I find the Finder extremely hard to use. There seems to be a simpler way to navigate and gain the information. Why isn't the site designed better? 
 
-Perhaps WMATA doesn't have the bandwidth to design for this page. Perhaps they don't care. Perhaps the designers just don't understand how people use the site. All of these are examples of how a solid design process of need finding, user testing, and proper workflow could help design a better site.
+Perhaps WMATA doesn't have the bandwidth to design for this page. Perhaps they don't care. Perhaps the designers just don't understand how people use the site. All of these are examples of how a solid design process of need finding, user testing, and proper work flow could help design a better site.
 
  Whatever the reason I believe my design prototypes can shed some light on how the site and use of the information could be improved.
 
@@ -46,15 +46,15 @@ Next I sketched of some ideas of what the site could look like.
 
 <img src="/images/wmatawire1.png" alt='wmata nextbus sketch'>
 
-I took some of the better ideas and made wireframes to get a more structured and neat view of the idea.
+I took some of the better ideas and made wire frames to get a more structured and neat view of the idea.
 
-<img src="/images/myImage.png" alt='wmata nextbus redesign wireframe'>
+<img src="/images/myImage.png" alt='wmata nextbus redesign wire frame'>
 
 Finally I prototyped two of the best ideas in HTML and CSS. The sites are by no means finished but I think they give potential users a good idea of how they would gain public transit information.
 
 <h2>Explanation of the prototypes</h2>
 <h3>Redesign1</h3>
-This different take on the WMATA Nextbus Finder focues on a large map and clean UI.
+This different take on the WMATA Nextbus Finder focuses on a large map and clean UI.
 
 <img src="/images/wmataredesigncomments2.png" alt='wmata nextbus redesign 1 bus arrival zones'>
 

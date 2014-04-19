@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://example.com/blog/learning/full-of-think/</loc>
+    <loc>http://noahpatterson.me/blog/learning/full-of-think/</loc>
     <lastmod>2014-04-19T14:56:37-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/learning/thinkful-update/</loc>
+    <loc>http://noahpatterson.me/blog/learning/thinkful-update/</loc>
     <lastmod>2014-04-19T15:36:17-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/css/trouble-floating/</loc>
+    <loc>http://noahpatterson.me/blog/css/trouble-floating/</loc>
     <lastmod>2014-04-19T15:37:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/css/wmata-dc-next-bus-app-sketches/</loc>
+    <loc>http://noahpatterson.me/blog/css/wmata-dc-next-bus-app-sketches/</loc>
     <lastmod>2014-04-19T14:57:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/css/wmata-nextbus-redesign/</loc>
+    <loc>http://noahpatterson.me/blog/css/wmata-nextbus-redesign/</loc>
     <lastmod>2014-04-19T15:40:08-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/learning/immersive-meetups/</loc>
+    <loc>http://noahpatterson.me/blog/learning/immersive-meetups/</loc>
     <lastmod>2014-04-19T14:57:14-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/</loc>
+    <loc>http://noahpatterson.me/blog/</loc>
     <lastmod>2014-04-19T12:24:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/categories/code/</loc>
-    <lastmod>2014-04-19T12:43:55-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://example.com/</loc>
+    <loc>http://noahpatterson.me/</loc>
     <lastmod>2014-04-19T07:43:25-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/categories/thinkful/</loc>
+    <loc>http://noahpatterson.me/blog/categories/learning/</loc>
     <lastmod>2014-04-19T12:43:55-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/categories/sketch/</loc>
+    <loc>http://noahpatterson.me/blog/categories/css/</loc>
     <lastmod>2014-04-19T12:43:55-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/categories/design/</loc>
+    <loc>http://noahpatterson.me/blog/categories/code/</loc>
     <lastmod>2014-04-19T12:43:55-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/categories/learning/</loc>
+    <loc>http://noahpatterson.me/blog/categories/design/</loc>
     <lastmod>2014-04-19T12:43:55-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://example.com/blog/categories/css/</loc>
+    <loc>http://noahpatterson.me/blog/categories/sketch/</loc>
+    <lastmod>2014-04-19T12:43:55-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://noahpatterson.me/blog/categories/thinkful/</loc>
     <lastmod>2014-04-19T12:43:55-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

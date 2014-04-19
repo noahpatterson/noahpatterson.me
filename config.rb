@@ -111,7 +111,7 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash
+  # activate :asset_hash
 
   # Use relative URLs
   activate :relative_assets
@@ -127,7 +127,7 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-set :url_root, 'http://example.com'
+set :url_root, 'http://noahpatterson.me'
 
 activate :search_engine_sitemap
 

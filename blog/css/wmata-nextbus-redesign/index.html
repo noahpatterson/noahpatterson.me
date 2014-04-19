@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>WMATA Nextbus Redesign</title>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> -->
+    <link href="../../../stylesheets/all-e2c57bd2.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../stylesheets/highlight-35741444.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
+    
+  </head>
+  
+  <body class="blog blog_css blog_css_wmata-nextbus-redesign blog_css_wmata-nextbus-redesign_index">
+    <header class='article-view'>
+      <div class="open-menu">
+          <span class='open-btn circle-link'><i class=" fa fa-bars"></i></span>
+          <span class="close-btn circle-link"><i class=" fa fa-times"></i></span>
+      </div>
+
+      <nav class="main-nav">
+          <ul>
+              <span class="link_to_example link_to_start hint--top ruby-style" data-hint="Example: Rails link_to">
+                  <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to" alt="Example of a rails link_to method">&lt%= link_to</a>
+              </span>
+              <li >
+                  <a class="circle-link blog-link" href="/blog">Blog</a>
+              </li>
+              <li>
+                  <a class='circle-link' href="https://twitter.com/albinosquirrel" title="Noah Patterson's Twitter">
+                      <i class="fa fa-twitter"></i>
+                      <span class="label">Twitter</span>
+                  </a>
+              </li>
+              <li>
+                  <a class='circle-link' href="https://github.com/noahpatterson" title="Noah Patterson's Github">
+                      <i class="fa fa-github"></i>
+                      <span class="label">Github</span>
+                  </a>
+              </li>
+              <li>
+                  <a class='circle-link' href="mailto:n@noahpatterson.me" title="Noah Patterson's Email">
+                      <i class="fa fa-envelope"></i>
+                      <span class="label">Email</span>
+                  </a>
+              </li>
+              <span class="link_to_example link_to_end hint--top ruby-style" data-hint="Example: Rails link_to">
+                  <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to" alt="Example of a rails link_to method">%&gt</a>
+              </span>
+          </ul>
+      </nav>
+
+      <!-- <div class='title-container'> -->
+    <a href="/" alt='Home' class='title-bar'>
+            <h1>Noah Patterson</h1>
+            <h2>Web Developer</h2>
+    </a>
+<!-- </div> -->
+
+      <section class="intro">
+    <div class="about">
+        <span class="hint--top ruby-style heredoc-top" data-hint="Example: Ruby Heredoc"><a href="http://www.ruby-doc.org/core-2.1.1/doc/syntax/literals_rdoc.html#label-Here+Documents" alt="Example of a ruby heredoc"><<-ABOUT</a></span>
+        <p class='center'>
+            Hello there! I am primarily a Ruby on Rails Developer with a background in data analysis. I am estatic about learning new things. I enjoy long intellectual conversations about complex systems. If it's with a nice meal, even better! Thanks for taking a look around!
+        </p>
+        <span class="hint--top ruby-style heredoc-btm" data-hint="Example: Ruby Heredoc"><a href="http://www.ruby-doc.org/core-2.1.1/doc/syntax/literals_rdoc.html#label-Here+Documents" alt="Example of a ruby heredoc">ABOUT</a></span>
+    </div>
+</section>
+
+
+
+
+    </header>
+
+    <div class="other-title-bar">
+      <a href="/" alt='Home'>
+              <h1>Noah Patterson</h1>
+              <h2>Web Developer</h2>
+      </a>
+    </div>
+
+    <div class="wrapper">
+                <div class="article">
+            <h1>WMATA Nextbus Redesign</h1>
+            <h2>Apr 20 2013</h2>
+            <p>Categories: </p>
+            <ul>
+                
+                    <li>
+                        <a href="/blog/categories/thinkful/">thinkful</a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/categories/design/">design</a>
+                    </li>
+                
+            </ul>
+            <p>As part of the <a href="http://www.thinkful.com">Thinkful</a> class I am taking we were tasked to use our newly learned information about design to redesign a website. I choose one I thought didn&rsquo;t quite reach it&rsquo;s potential. A website that I use. A website that my friends rely on. A website that the people in Washington, DC use everyday. <a href="http://www.wmata.com/rider_tools/nextbus/arrivals.cfm">WMATA Nextbus Finder</a></p>
+
+<p>Let me guide you through what is wrong with the website, my process to tackle the problem, and finally some prototypes of how it could look.</p>
+
+<p>The WMATA Nextbus Finder is used by people in Washington, DC to find when a public transit bus is arriving at their chosen stop. The site allows you to do a number of additional things:</p>
+
+<p><img src="/images/screenshotcomment-bc3642a4.png" alt='wmata nextbus screenshot with comments'></p>
+
+<ol>
+    <li>Find additional information about transportation in Washington, DC</li>
+    <ol>
+        <li>See live maps of the locations of buses by route</li>
+        <li>Look up route time tables</li>
+    </ol>
+    <li>Select the specific route the user is looking for to see the arrival times</li>
+    <li>See the estimated arrival times of the buses in the route the user selected</li>
+    <li>See alternative routes that come to the stop the user selected</li>
+</ol>
+
+<p>Just having these options for public transit is extremely convenient, I use the Finder all the time. However I find the Finder extremely hard to use. There seems to be a simpler way to navigate and gain the information. Why isn&rsquo;t the site designed better? </p>
+
+<p>Perhaps WMATA doesn&rsquo;t have the bandwidth to design for this page. Perhaps they don&rsquo;t care. Perhaps the designers just don&rsquo;t understand how people use the site. All of these are examples of how a solid design process of need finding, user testing, and proper work flow could help design a better site.</p>
+
+<p>Whatever the reason I believe my design prototypes can shed some light on how the site and use of the information could be improved.</p>
+
+<h2>What is wrong with this site?</h2>
+
+<ol>
+    <li>The design of the main website is not the same as the design of the Nextbus Finder</li>
+    <li>Useful map information is loaded on another page</li>
+    <li>Selection of route information is slow and awkward</li>
+    <li>Selecting another route clears the current route</li>
+    <li>There is no information on whether the alternative routes are useful to get the user to their destination</li>
+</ol>
+
+<h2>My Process</h2>
+
+<p>First I analyzed the current site and asked friends for feedback on what was missing. Ease of use and not knowing which bus to take were the biggest complaints.</p>
+
+<p>Next I sketched of some ideas of what the site could look like.</p>
+
+<p><img src="/images/wmatawire1-d93c62c7.png" alt='wmata nextbus sketch'></p>
+
+<p>I took some of the better ideas and made wire frames to get a more structured and neat view of the idea.</p>
+
+<p><img src="/images/myImage-17c2b80a.png" alt='wmata nextbus redesign wire frame'></p>
+
+<p>Finally I prototyped two of the best ideas in HTML and CSS. The sites are by no means finished but I think they give potential users a good idea of how they would gain public transit information.</p>
+
+<h2>Explanation of the prototypes</h2>
+
+<h3>Redesign1</h3>
+
+<p>This different take on the WMATA Nextbus Finder focuses on a large map and clean UI.</p>
+
+<p><img src="/images/wmataredesigncomments2-21b46790.png" alt='wmata nextbus redesign 1 bus arrival zones'></p>
+
+<ol>
+    <li>Upon login a favorites button will keep track of stops that the user use often</li>
+    <li>The live map will track the route the user has selected and the buses that are on the route (this uses WMATA&rsquo;s current style of live map, some improvements could be found here too)</li>
+    <li>The map can expand to the whole page</li>
+    <li>The user can search for directions, not just a specific route and have WMATA&rsquo;s current trip planner find the available routes to take</li>
+    <li>The user can still search for specific routes</li>
+    <li>Arrivals are in a clean UI</li>
+</ol>
+
+<h3>Redesign2</h3>
+
+<p>This radical prototype focuses on a new view that facilitates quick glance updates of bus arrival times</p>
+
+<p><img src="/images/wmataredesigncomments1-53de6896.png" alt='wmata nextbus redesign 2 bus arrival zones'></p>
+
+<ol>
+    <li>A clean, modern Navigation</li>
+    <li>A favorites button will keep track of stops that you use often once you login</li>
+    <li>A prominent visual display of arriving buses</li>
+    <li>Buses on the route, showing what street, and how long until its arrival. These buses travel down the screen from green to red as the bus gets closer</li>
+    <li>Route and/or stop selector using easy searching</li>
+    <li>Alternative route information that will populate the upcoming buses area with the selected route</li>
+    <li>Bus arrival zones use common knowledge of green=OK, yellow=caution and red=Bad. The sections will represent the time the user has until a bus gets to their selected stop. Green buses are further away and they have time. Yellow bus are close and they should leave. Red buses are at their stop and they will likely miss the bus</li>
+</ol>
+
+<h2>Conclusion</h2>
+
+<p>Overall the Thinkful project was really inspiring. The project allowed me to gather my ideas for a better public transit system into a living and breathing idea.  I learned a lot about design and designing actual concrete ideas for the web.</p>
+
+        </div>
+
+    </div>
+
+    <footer>
+    <p>Inspiration from <a href="https://github.com/daleanthony/Uno">Uno</a></p>
+    <p>Built with <a href="http://middlemanapp.com/">Middleman</a></p>
+</footer>
+  </body>
+  <script src="../../../javascripts/all-c611dacf.js" type="text/javascript"></script>
+</html>

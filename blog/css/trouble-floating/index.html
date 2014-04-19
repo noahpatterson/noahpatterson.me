@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Trouble Floating</title>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> -->
+    <link href="../../../stylesheets/all-e2c57bd2.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../stylesheets/highlight-35741444.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
+    
+  </head>
+  
+  <body class="blog blog_css blog_css_trouble-floating blog_css_trouble-floating_index">
+    <header class='article-view'>
+      <div class="open-menu">
+          <span class='open-btn circle-link'><i class=" fa fa-bars"></i></span>
+          <span class="close-btn circle-link"><i class=" fa fa-times"></i></span>
+      </div>
+
+      <nav class="main-nav">
+          <ul>
+              <span class="link_to_example link_to_start hint--top ruby-style" data-hint="Example: Rails link_to">
+                  <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to" alt="Example of a rails link_to method">&lt%= link_to</a>
+              </span>
+              <li >
+                  <a class="circle-link blog-link" href="/blog">Blog</a>
+              </li>
+              <li>
+                  <a class='circle-link' href="https://twitter.com/albinosquirrel" title="Noah Patterson's Twitter">
+                      <i class="fa fa-twitter"></i>
+                      <span class="label">Twitter</span>
+                  </a>
+              </li>
+              <li>
+                  <a class='circle-link' href="https://github.com/noahpatterson" title="Noah Patterson's Github">
+                      <i class="fa fa-github"></i>
+                      <span class="label">Github</span>
+                  </a>
+              </li>
+              <li>
+                  <a class='circle-link' href="mailto:n@noahpatterson.me" title="Noah Patterson's Email">
+                      <i class="fa fa-envelope"></i>
+                      <span class="label">Email</span>
+                  </a>
+              </li>
+              <span class="link_to_example link_to_end hint--top ruby-style" data-hint="Example: Rails link_to">
+                  <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to" alt="Example of a rails link_to method">%&gt</a>
+              </span>
+          </ul>
+      </nav>
+
+      <!-- <div class='title-container'> -->
+    <a href="/" alt='Home' class='title-bar'>
+            <h1>Noah Patterson</h1>
+            <h2>Web Developer</h2>
+    </a>
+<!-- </div> -->
+
+      <section class="intro">
+    <div class="about">
+        <span class="hint--top ruby-style heredoc-top" data-hint="Example: Ruby Heredoc"><a href="http://www.ruby-doc.org/core-2.1.1/doc/syntax/literals_rdoc.html#label-Here+Documents" alt="Example of a ruby heredoc"><<-ABOUT</a></span>
+        <p class='center'>
+            Hello there! I am primarily a Ruby on Rails Developer with a background in data analysis. I am estatic about learning new things. I enjoy long intellectual conversations about complex systems. If it's with a nice meal, even better! Thanks for taking a look around!
+        </p>
+        <span class="hint--top ruby-style heredoc-btm" data-hint="Example: Ruby Heredoc"><a href="http://www.ruby-doc.org/core-2.1.1/doc/syntax/literals_rdoc.html#label-Here+Documents" alt="Example of a ruby heredoc">ABOUT</a></span>
+    </div>
+</section>
+
+
+
+
+    </header>
+
+    <div class="other-title-bar">
+      <a href="/" alt='Home'>
+              <h1>Noah Patterson</h1>
+              <h2>Web Developer</h2>
+      </a>
+    </div>
+
+    <div class="wrapper">
+                <div class="article">
+            <h1>Trouble Floating</h1>
+            <h2>Apr 12 2013</h2>
+            <p>Categories: </p>
+            <ul>
+                
+                    <li>
+                        <a href="/blog/categories/css/">css</a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/categories/code/">code</a>
+                    </li>
+                
+            </ul>
+            <p><img alt="image" src="/images/trouble_floating-e8e5d030.jpg" /></p>
+
+<p><span>&nbsp;</span></p>
+
+<p><span>Floats. What an interesting concept. I can see how the standard designers were really excited about this one when they thought up HTML styles:</span></p>
+
+<p><span>&ldquo;Do you want that picture to magically snap up and against the previous&nbsp;</span>column.&rdquo;<span>&nbsp; No problem. &ldquo;Wait so you&rsquo;re telling me we created a way to mimic a print design standard but for the web and we made it dead simple to do? &rdquo; Absolutely.</span></p>
+<pre class="highlight css"><span class="c">/*awesome.css*/</span>
+<span class="nc">.awesome</span> <span class="p">{</span>
+        <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span>
+    <span class="p">}</span>
+</pre>
+
+<p><span>All day long! </span></p>
+
+<p><span>&ldquo;But what&rsquo;s the catch? Nothing in CSS is that simple except maybe <code> font-weight: bold</code>&nbsp;except, wait you can use a number too, and you what if the typography is bold looking to begin with&hellip;grggle&hellip;glug&hellip;</span></p>
+<pre class="highlight css"><span class="c">/*explode.css*/</span>
+<span class="nt">Head</span><span class="nc">.explode</span> <span class="p">{</span>
+        <span class="nl">color</span><span class="p">:</span> <span class="no">red</span>
+    <span class="p">}</span>
+</pre>
+
+<p><span>Woah, calm down! You&rsquo;re right things are more complicated than they seem at first and Floats are no different. Luckily the internet is a big place full of smart people that figure this stuff out. Let&rsquo;s go into some more detail.</span></p>
+
+<p><span><strong>What does &lsquo;Float&rsquo; mean?</strong><br /></span></p>
+
+<p><span>As I eluded to earlier, to &quot;float&rdquo; something is to literally move it out of normal &ldquo;flow&rdquo;. This forces the element to fill all&nbsp;available&nbsp;space next to the previous element. Here is a more&nbsp;official&nbsp;definition:</span></p>
+
+<blockquote>
+    <p>The float CSS property specifies that an element should be taken from the normal flow and placed along the left or right side of its container, where text and inline elements will wrap around it.</p>
+    <div><a href="https://developer.mozilla.org/en-US/docs/CSS/float">Mozilla Definition</a></div>
+</blockquote>
+
+<p><span>Simply put the browser says &ldquo;how big is my container?&rdquo; (er there&rsquo;s a pun there I think). Next the browser looks at the size of the item you are trying to move(float) and at the size of the previous item in the container. If the previous item did not take all of the containers space&nbsp;<strong>and&nbsp;</strong>the moving item is not too large, then the item is placed beside the previous item. Finally text or other elements will continue to flow around the floated element. This is similar to how we see text flow around images in newspapers.</span></p>
+
+<p><strong>Why not position:&nbsp;relative&nbsp;everything?</strong></p>
+
+<p>While we could potentially <code>relative</code> or <code>absolute</code> position all our elements in the container, but this would make our page very brittle. Depending on how we code the position, realizing the window could mess up the look of the page. Also what if the floated elements content is longer sometimes? Then the position might not make any sense. Finally even with the coming caveats floating is much simpler to use.</p>
+
+<p><span><strong>Common Uses</strong></span></p>
+
+<p><span>Floats are often used to place images inline beside each other. To the extreme, sites like <a href="http://pinterest.com/">Pinterest</a> and apps like <a href="http://flipboard.com/">Flipboard</a>&nbsp;use a float-like concept to position their articles/items. Floats can also be used to place columns on a page.<br /></span></p>
+
+<p><span><strong>Clearfix and You</strong></span></p>
+
+<p><span>Often floated elements ignore the fact they are in a container, then a container will shrink to only the size of the non-floated elements. This makes the floated elements look like they are overflowing from the container.</span></p>
+
+<p><span>This is often(always?) counter to how people think the page should look after floating. I often think that this is one of those ignored bugs that the standard designers don&rsquo;t care enough to fix. Maybe this is because the &ldquo;clearfix&rdquo; is so readily&nbsp;available&nbsp;or that they will be replacing the functionality later anyway. Maybe they are fixing it with a&nbsp;<a href="http://www.w3.org/TR/css3-flexbox/">Flexbox</a>&nbsp;like solution.</span></p>
+
+<p><span>Here is the latest clearfix:</span></p>
+<pre class="highlight css"><span class="c">/*clearfix.css*/</span>
+<span class="nc">.group</span><span class="nd">:after</span> <span class="p">{</span>
+        <span class="nl">content</span><span class="p">:</span> <span class="s1">""</span><span class="p">;</span>
+        <span class="nl">display</span><span class="p">:</span> <span class="n">table</span><span class="p">;</span>
+        <span class="nl">clear</span><span class="p">:</span> <span class="nb">both</span><span class="p">;</span>
+    <span class="p">}</span>
+</pre>
+
+<p><a href="http://css-tricks.com/snippets/css/clear-fix/">Css Tricks again: Clearfixes through time!</a></p>
+
+<p><span></span><span>The fix is clear, all you have to do is hack together these seemingly unrelated CSS properties and blam it works (mostly). The first time I looked at the clearfix &ldquo;fix&rdquo; it seemed if the </span><a href="http://en.wikipedia.org/wiki/Infinite_monkey_theorem">Monkey&rsquo;s Writing Shakespeare</a><span> decided to take up web design and figured out the solution. How did someone figure this one out without just randomly trying things? That is the beauty of designing for the web. A bunch of smart people with time and&nbsp;</span>enthusiasm<span>&nbsp;continually try to solve problems and share the solutions!</span></p>
+
+<p>Hopefully this helps explain away some of the confusion about floats, I know it helped me!</p>
+
+<p><span></span><strong>Links</strong></p>
+
+<p><a href="http://learnlayout.com/float.html">Learn Layout</a>&nbsp;This is a great tutorial about web layout and includes guides for floating.</p>
+
+<p><a href="http://css-tricks.com/all-about-floats/">Css Tricks blog post about floats</a></p>
+
+<p><span>Photo credit:&nbsp;</span><a href="http://www.flickr.com/photos/boobook48/3615827503/">boobook48</a><span>&nbsp;/&nbsp;</span><a href="http://foter.com/Water/">Foter.com</a><span>&nbsp;/&nbsp;</span><a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND</a></p>
+
+        </div>
+
+    </div>
+
+    <footer>
+    <p>Inspiration from <a href="https://github.com/daleanthony/Uno">Uno</a></p>
+    <p>Built with <a href="http://middlemanapp.com/">Middleman</a></p>
+</footer>
+  </body>
+  <script src="../../../javascripts/all-c611dacf.js" type="text/javascript"></script>
+</html>

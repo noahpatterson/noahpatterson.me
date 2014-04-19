@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2013-04-25T22:46:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Immersive Meetups</title>
+    <link rel="alternate" href="http://blog.url.com/blog/learning/immersive-meetups/"/>
+    <id>http://blog.url.com/blog/learning/immersive-meetups/</id>
+    <published>2013-04-25T22:46:00Z</published>
+    <updated>2014-04-19T14:57:14-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Tonight I attended a Meetup about web design process and strategy. Am I a designer? Only fledgling. Am I a part of the community? No but I am trying to be. Why then would I even try to attend a meet up about design? Why would I subject myself to the awkwardness of explaining that &amp;ldquo;No am I not a designer. I&amp;rsquo;m not even a web developer yet.&amp;quot; It&amp;rsquo;s a scary prospect attending a community meet up in a community you have no real connection to.  Before I go into the reason and explanation of why I am doing these things, lets dive into a bit of a thought experiment.&lt;/p&gt;
+
+&lt;h2&gt;Your crazy idea&lt;/h2&gt;
+
+&lt;p&gt;Lets say that you have this crazy idea. The idea is very different from every idea that you have had in the past. Odds are the idea is vague, the implementation is challenging and you don&amp;rsquo;t have the skills to start. However you are convinced this the idea is worth pursuing. If only you could gather the skills, the knowledge and the motivation to do it yourself. How would you go about pursuing this idea?&lt;/p&gt;
+
+&lt;p&gt;In language studies I read that to truly know and understand a new language you have to be immersed in that language. Your day to day routines have to be in that language. Your ideas and frustrations have to be expressed in that language. Only then will you be able to communicate with people speaking that language. Most of the time language students travel to the region where they can live the language, where everyone around them speaks the language. Why don&amp;rsquo;t we learn all new skills the same way? If you are a plumber you need to be immersed in plumbing (sigh unintentional pun). If you are a locksmith you better understand all the different kinds of locks. If you are a web designer or developer you need to know how people design for the web.&lt;/p&gt;
+
+&lt;h2&gt;My crazy idea&lt;/h2&gt;
+
+&lt;p&gt;My goal is to learn web design and web development. I am immersing myself in the world and I am trying to fully understand what it means to be a web designer/developer. &lt;/p&gt;
+
+&lt;h2&gt;Immersion Creation&lt;/h2&gt;
+
+&lt;p&gt;How do we create this immersive atmosphere when we cannot just travel to a foreign land? My current idea is to fill as much of my life with web dev and design as possible. I want to speak web dev, sleep web dev, and who knows &lt;a href="http://www.meetup.com/TechBreakfast/"&gt;eat&lt;/a&gt; web dev. When I am not working my day job I am working on Thinkful coursework. When I am walking to work I am listening to web dev/design podcasts like &lt;a href="http://shoptalkshow.com/"&gt;Shoptalk Show&lt;/a&gt;. I bookmark articles about web dev/design to read later. I follow and keep up with designers in the community via twitter. I attend Meetup groups and conferences about web dev/design. I am fully integrating this work into my life and I believe if you want to tackle that project or idea you have, you need to do the same.&lt;/p&gt;
+
+&lt;h2&gt;The Web Community&lt;/h2&gt;
+
+&lt;p&gt;Luckily in the web design and web development community there are talented people that are willing to teach other potentially talented people their craft. The Web community is taking all of the benefits of the old trade/apprenticeship model and tweaking it for today&amp;rsquo;s internet filled world. Through the use of Meetup groups and Twitter we can connect with smart people in the community and we can pick their brains to gather critical knowledge about our work. In the web community it is almost required that the most experienced members teach their craft. In DC groups like &lt;a href="http://refresh-dc.org/"&gt;RefreshDC&lt;/a&gt; and &lt;a href="https://www.facebook.com/groups/washdctech/#"&gt;DC Tech&lt;/a&gt; encourage participation by all and create fun learning events for the DC web community. DC design and development agencies like &lt;a href="http://istrategylabs.com/"&gt;iStrategyLabs&lt;/a&gt; are also fully involved in teaching others their skills. I believe the companies see it as a way to build and eventually procure the most talented members of the community. Win, win. &lt;/p&gt;
+
+&lt;h2&gt;Realism&lt;/h2&gt;
+
+&lt;p&gt;In the end we&amp;rsquo;ll see if my efforts will help me meet my goal of joining the web dev/design community. We have to be realistic when thinking of the outcome of our efforts. I have set my goal as a challenge but I also have to be happy if I only attain parts of the goal. If at the very least I come out of this journey with a basic understanding of the web dev/develop world, I will still be able to apply my new knowledge to other projects and goals. Again, win, win.&lt;/p&gt;
+
+&lt;h2&gt;Thinkful update&lt;/h2&gt;
+
+&lt;p&gt;I am working hard on finishing up a first draft on my personal site.  It is clear now that designing is a process where iteration is key. The first project I really designed, &lt;a href="http://blog.albino-squirrel.com/blog/2013/04/20/wmata-nextbus-redesign/"&gt;WMATA Redesign&lt;/a&gt;, was a struggle. While I don&amp;rsquo;t think I have the best design I do think it is a step in the right direction. For my personal site I am taking all the knowledge I have gained of the &amp;lsquo;design process&amp;rsquo; and I have started to formulate new strategies. I really feel that practice makes perfect in website design. The more projects that I do the better off I will be in learning how to design.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>WMATA Nextbus Redesign</title>
+    <link rel="alternate" href="http://blog.url.com/blog/css/wmata-nextbus-redesign/"/>
+    <id>http://blog.url.com/blog/css/wmata-nextbus-redesign/</id>
+    <published>2013-04-20T19:03:00Z</published>
+    <updated>2014-04-19T15:40:08-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;As part of the &lt;a href="http://www.thinkful.com"&gt;Thinkful&lt;/a&gt; class I am taking we were tasked to use our newly learned information about design to redesign a website. I choose one I thought didn&amp;rsquo;t quite reach it&amp;rsquo;s potential. A website that I use. A website that my friends rely on. A website that the people in Washington, DC use everyday. &lt;a href="http://www.wmata.com/rider_tools/nextbus/arrivals.cfm"&gt;WMATA Nextbus Finder&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Let me guide you through what is wrong with the website, my process to tackle the problem, and finally some prototypes of how it could look.&lt;/p&gt;
+
+&lt;p&gt;The WMATA Nextbus Finder is used by people in Washington, DC to find when a public transit bus is arriving at their chosen stop. The site allows you to do a number of additional things:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/screenshotcomment.png" alt='wmata nextbus screenshot with comments'&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Find additional information about transportation in Washington, DC&lt;/li&gt;
+    &lt;ol&gt;
+        &lt;li&gt;See live maps of the locations of buses by route&lt;/li&gt;
+        &lt;li&gt;Look up route time tables&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;li&gt;Select the specific route the user is looking for to see the arrival times&lt;/li&gt;
+    &lt;li&gt;See the estimated arrival times of the buses in the route the user selected&lt;/li&gt;
+    &lt;li&gt;See alternative routes that come to the stop the user selected&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Just having these options for public transit is extremely convenient, I use the Finder all the time. However I find the Finder extremely hard to use. There seems to be a simpler way to navigate and gain the information. Why isn&amp;rsquo;t the site designed better? &lt;/p&gt;
+
+&lt;p&gt;Perhaps WMATA doesn&amp;rsquo;t have the bandwidth to design for this page. Perhaps they don&amp;rsquo;t care. Perhaps the designers just don&amp;rsquo;t understand how people use the site. All of these are examples of how a solid design process of need finding, user testing, and proper work flow could help design a better site.&lt;/p&gt;
+
+&lt;p&gt;Whatever the reason I believe my design prototypes can shed some light on how the site and use of the information could be improved.&lt;/p&gt;
+
+&lt;h2&gt;What is wrong with this site?&lt;/h2&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;The design of the main website is not the same as the design of the Nextbus Finder&lt;/li&gt;
+    &lt;li&gt;Useful map information is loaded on another page&lt;/li&gt;
+    &lt;li&gt;Selection of route information is slow and awkward&lt;/li&gt;
+    &lt;li&gt;Selecting another route clears the current route&lt;/li&gt;
+    &lt;li&gt;There is no information on whether the alternative routes are useful to get the user to their destination&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;My Process&lt;/h2&gt;
+
+&lt;p&gt;First I analyzed the current site and asked friends for feedback on what was missing. Ease of use and not knowing which bus to take were the biggest complaints.&lt;/p&gt;
+
+&lt;p&gt;Next I sketched of some ideas of what the site could look like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/wmatawire1.png" alt='wmata nextbus sketch'&gt;&lt;/p&gt;
+
+&lt;p&gt;I took some of the better ideas and made wire frames to get a more structured and neat view of the idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/myImage.png" alt='wmata nextbus redesign wire frame'&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally I prototyped two of the best ideas in HTML and CSS. The sites are by no means finished but I think they give potential users a good idea of how they would gain public transit information.&lt;/p&gt;
+
+&lt;h2&gt;Explanation of the prototypes&lt;/h2&gt;
+
+&lt;h3&gt;Redesign1&lt;/h3&gt;
+
+&lt;p&gt;This different take on the WMATA Nextbus Finder focuses on a large map and clean UI.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/wmataredesigncomments2.png" alt='wmata nextbus redesign 1 bus arrival zones'&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Upon login a favorites button will keep track of stops that the user use often&lt;/li&gt;
+    &lt;li&gt;The live map will track the route the user has selected and the buses that are on the route (this uses WMATA&amp;rsquo;s current style of live map, some improvements could be found here too)&lt;/li&gt;
+    &lt;li&gt;The map can expand to the whole page&lt;/li&gt;
+    &lt;li&gt;The user can search for directions, not just a specific route and have WMATA&amp;rsquo;s current trip planner find the available routes to take&lt;/li&gt;
+    &lt;li&gt;The user can still search for specific routes&lt;/li&gt;
+    &lt;li&gt;Arrivals are in a clean UI&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Redesign2&lt;/h3&gt;
+
+&lt;p&gt;This radical prototype focuses on a new view that facilitates quick glance updates of bus arrival times&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/wmataredesigncomments1.png" alt='wmata nextbus redesign 2 bus arrival zones'&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;A clean, modern Navigation&lt;/li&gt;
+    &lt;li&gt;A favorites button will keep track of stops that you use often once you login&lt;/li&gt;
+    &lt;li&gt;A prominent visual display of arriving buses&lt;/li&gt;
+    &lt;li&gt;Buses on the route, showing what street, and how long until its arrival. These buses travel down the screen from green to red as the bus gets closer&lt;/li&gt;
+    &lt;li&gt;Route and/or stop selector using easy searching&lt;/li&gt;
+    &lt;li&gt;Alternative route information that will populate the upcoming buses area with the selected route&lt;/li&gt;
+    &lt;li&gt;Bus arrival zones use common knowledge of green=OK, yellow=caution and red=Bad. The sections will represent the time the user has until a bus gets to their selected stop. Green buses are further away and they have time. Yellow bus are close and they should leave. Red buses are at their stop and they will likely miss the bus&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Overall the Thinkful project was really inspiring. The project allowed me to gather my ideas for a better public transit system into a living and breathing idea.  I learned a lot about design and designing actual concrete ideas for the web.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>WMATA DC Next Bus App Sketches</title>
+    <link rel="alternate" href="http://blog.url.com/blog/css/wmata-dc-next-bus-app-sketches/"/>
+    <id>http://blog.url.com/blog/css/wmata-dc-next-bus-app-sketches/</id>
+    <published>2013-04-12T16:50:00Z</published>
+    <updated>2014-04-19T14:57:01-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Some Initial sketches of a WMATA DC next bus web redesign. This is part of a thinkful project. More to come.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/wmataapp.jpg" alt='wmata next bus sketches'&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Thinkful Update</title>
+    <link rel="alternate" href="http://blog.url.com/blog/learning/thinkful-update/"/>
+    <id>http://blog.url.com/blog/learning/thinkful-update/</id>
+    <published>2013-04-12T01:00:00Z</published>
+    <updated>2014-04-19T15:36:17-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;These next few weeks are about design. This is an area that I don&amp;rsquo;t have a lot of experience in but I hope will teach me a lot. &lt;/p&gt;
+
+&lt;p&gt;I can say that reading about design and to a larger extent taking a course about web design/development has opened my mind to examples in everyday life. &lt;/p&gt;
+
+&lt;p&gt;One example that continues to irk me is the lack of decently designed mobile restaurant pages in Washington DC. Almost every restaurant website that I have been to recently has redirected me to a mobile site, given me unclear instructions on how to view the full site, not provided a responsive layout, and is generally crap. The sites are ugly, not functional, and usually only three buttons: menu, directions, contact us. OK so you included menu, that&amp;rsquo;s probably why I am there anyway &lt;click&gt; oh it&amp;rsquo;s just a .pdf that takes forever to download and is out of date? Great. Sigh seriously they are all crap. I wonder if any other cities have this problem.&lt;/p&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s back to trying to find dinner on my phone &lt;headdesk&gt;&amp;hellip;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Trouble Floating</title>
+    <link rel="alternate" href="http://blog.url.com/blog/css/trouble-floating/"/>
+    <id>http://blog.url.com/blog/css/trouble-floating/</id>
+    <published>2013-04-12T00:34:00Z</published>
+    <updated>2014-04-19T15:37:58-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="image" src="/images/trouble_floating.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;Floats. What an interesting concept. I can see how the standard designers were really excited about this one when they thought up HTML styles:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&amp;ldquo;Do you want that picture to magically snap up and against the previous&amp;nbsp;&lt;/span&gt;column.&amp;rdquo;&lt;span&gt;&amp;nbsp; No problem. &amp;ldquo;Wait so you&amp;rsquo;re telling me we created a way to mimic a print design standard but for the web and we made it dead simple to do? &amp;rdquo; Absolutely.&lt;/span&gt;&lt;/p&gt;
+&lt;pre class="highlight css"&gt;&lt;span class="c"&gt;/*awesome.css*/&lt;/span&gt;
+&lt;span class="nc"&gt;.awesome&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nl"&gt;float&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;left&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;span&gt;All day long! &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&amp;ldquo;But what&amp;rsquo;s the catch? Nothing in CSS is that simple except maybe &lt;code&gt; font-weight: bold&lt;/code&gt;&amp;nbsp;except, wait you can use a number too, and you what if the typography is bold looking to begin with&amp;hellip;grggle&amp;hellip;glug&amp;hellip;&lt;/span&gt;&lt;/p&gt;
+&lt;pre class="highlight css"&gt;&lt;span class="c"&gt;/*explode.css*/&lt;/span&gt;
+&lt;span class="nt"&gt;Head&lt;/span&gt;&lt;span class="nc"&gt;.explode&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="no"&gt;red&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;span&gt;Woah, calm down! You&amp;rsquo;re right things are more complicated than they seem at first and Floats are no different. Luckily the internet is a big place full of smart people that figure this stuff out. Let&amp;rsquo;s go into some more detail.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;What does &amp;lsquo;Float&amp;rsquo; mean?&lt;/strong&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;As I eluded to earlier, to &amp;quot;float&amp;rdquo; something is to literally move it out of normal &amp;ldquo;flow&amp;rdquo;. This forces the element to fill all&amp;nbsp;available&amp;nbsp;space next to the previous element. Here is a more&amp;nbsp;official&amp;nbsp;definition:&lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;The float CSS property specifies that an element should be taken from the normal flow and placed along the left or right side of its container, where text and inline elements will wrap around it.&lt;/p&gt;
+    &lt;div&gt;&lt;a href="https://developer.mozilla.org/en-US/docs/CSS/float"&gt;Mozilla Definition&lt;/a&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span&gt;Simply put the browser says &amp;ldquo;how big is my container?&amp;rdquo; (er there&amp;rsquo;s a pun there I think). Next the browser looks at the size of the item you are trying to move(float) and at the size of the previous item in the container. If the previous item did not take all of the containers space&amp;nbsp;&lt;strong&gt;and&amp;nbsp;&lt;/strong&gt;the moving item is not too large, then the item is placed beside the previous item. Finally text or other elements will continue to flow around the floated element. This is similar to how we see text flow around images in newspapers.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why not position:&amp;nbsp;relative&amp;nbsp;everything?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While we could potentially &lt;code&gt;relative&lt;/code&gt; or &lt;code&gt;absolute&lt;/code&gt; position all our elements in the container, but this would make our page very brittle. Depending on how we code the position, realizing the window could mess up the look of the page. Also what if the floated elements content is longer sometimes? Then the position might not make any sense. Finally even with the coming caveats floating is much simpler to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Common Uses&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;Floats are often used to place images inline beside each other. To the extreme, sites like &lt;a href="http://pinterest.com/"&gt;Pinterest&lt;/a&gt; and apps like &lt;a href="http://flipboard.com/"&gt;Flipboard&lt;/a&gt;&amp;nbsp;use a float-like concept to position their articles/items. Floats can also be used to place columns on a page.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Clearfix and You&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;Often floated elements ignore the fact they are in a container, then a container will shrink to only the size of the non-floated elements. This makes the floated elements look like they are overflowing from the container.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;This is often(always?) counter to how people think the page should look after floating. I often think that this is one of those ignored bugs that the standard designers don&amp;rsquo;t care enough to fix. Maybe this is because the &amp;ldquo;clearfix&amp;rdquo; is so readily&amp;nbsp;available&amp;nbsp;or that they will be replacing the functionality later anyway. Maybe they are fixing it with a&amp;nbsp;&lt;a href="http://www.w3.org/TR/css3-flexbox/"&gt;Flexbox&lt;/a&gt;&amp;nbsp;like solution.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;Here is the latest clearfix:&lt;/span&gt;&lt;/p&gt;
+&lt;pre class="highlight css"&gt;&lt;span class="c"&gt;/*clearfix.css*/&lt;/span&gt;
+&lt;span class="nc"&gt;.group&lt;/span&gt;&lt;span class="nd"&gt;:after&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="nl"&gt;content&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;""&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="nl"&gt;display&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;table&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="nl"&gt;clear&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;both&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href="http://css-tricks.com/snippets/css/clear-fix/"&gt;Css Tricks again: Clearfixes through time!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;The fix is clear, all you have to do is hack together these seemingly unrelated CSS properties and blam it works (mostly). The first time I looked at the clearfix &amp;ldquo;fix&amp;rdquo; it seemed if the &lt;/span&gt;&lt;a href="http://en.wikipedia.org/wiki/Infinite_monkey_theorem"&gt;Monkey&amp;rsquo;s Writing Shakespeare&lt;/a&gt;&lt;span&gt; decided to take up web design and figured out the solution. How did someone figure this one out without just randomly trying things? That is the beauty of designing for the web. A bunch of smart people with time and&amp;nbsp;&lt;/span&gt;enthusiasm&lt;span&gt;&amp;nbsp;continually try to solve problems and share the solutions!&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Hopefully this helps explain away some of the confusion about floats, I know it helped me!&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://learnlayout.com/float.html"&gt;Learn Layout&lt;/a&gt;&amp;nbsp;This is a great tutorial about web layout and includes guides for floating.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://css-tricks.com/all-about-floats/"&gt;Css Tricks blog post about floats&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span&gt;Photo credit:&amp;nbsp;&lt;/span&gt;&lt;a href="http://www.flickr.com/photos/boobook48/3615827503/"&gt;boobook48&lt;/a&gt;&lt;span&gt;&amp;nbsp;/&amp;nbsp;&lt;/span&gt;&lt;a href="http://foter.com/Water/"&gt;Foter.com&lt;/a&gt;&lt;span&gt;&amp;nbsp;/&amp;nbsp;&lt;/span&gt;&lt;a href="http://creativecommons.org/licenses/by-nc-nd/2.0/"&gt;CC BY-NC-ND&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Full of Think</title>
+    <link rel="alternate" href="http://blog.url.com/blog/learning/full-of-think/"/>
+    <id>http://blog.url.com/blog/learning/full-of-think/</id>
+    <published>2013-04-12T00:19:00Z</published>
+    <updated>2014-04-19T14:56:37-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I have recently started my web development training at Thinkful and everything is going well! Thinkful is a startup focused on giving more structure to highly motivated learners. Thinkful uses the depth of self-learning HTML, CSS, and javascript resources that MOOCS are providing. &lt;/p&gt;
+
+&lt;p&gt;Likely you are having the same reaction as I did. I can already access all of that content myself and a lot of it for free. With quality MOOCS like Treehouse and Code School springing up faster that April flowers, what makes Thinkful different? Or why should I pay for this?&lt;/p&gt;
+
+&lt;p&gt;Again Thinkful is focused on &amp;lsquo;highly motivated learners&amp;rsquo;. What they give highly motivated learners is some structure to their learning. Personally I have found that most MOOCS give you a lot of information, exercises, and/or lessons to consume but they don&amp;rsquo;t do a good job leading you down the right path. In contrast Thinkful provides this structure. They give you projects to complete in each Unit. This allows you to really hone the skills you are learning. They also provide Mentors that have industry expertise to help guide you when you get stuck as well as give feedback on your projects. I agree with Thinkful. For me, the highly motivated learner, this is what I need.&lt;/p&gt;
+
+&lt;p&gt;I will keep this blog updated as the course goes along. We will see where we are at the end!&lt;/p&gt;
+</content>
+  </entry>
+</feed>

@@ -1,0 +1,15 @@
+<div class='blog-entries'>
+  <ol>
+    <% page_articles.each_with_index do |article, i| %>
+      <% link_to article do %>
+      <li class='blog-entry'>
+        <h2><%= article.title %></h2>
+        <h3 class='article_date'><%= article.date.strftime('%b %e %Y') %></h3>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+             the first 250 characters -->
+        <p><%= article.summary(200) %></p>
+      </li>
+    <% end %>
+  <% end %>
+  </ol>
+</div>

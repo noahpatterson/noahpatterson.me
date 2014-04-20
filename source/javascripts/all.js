@@ -15,27 +15,7 @@ $('.open-menu').on('click', '.open-btn', function(){
     $('.main-nav ul').slideDown();
 });
 
-// if ($('nav.article-view')) {
-//     $('nav a').show();
-// } else {
-//     $('nave a').hide();
-// }
-
-// $('.blog-link').click(  function() {
-//     $('nav a').show();
-// });
-
-// $('.home-link').click(  function() {
-//     $('nav a').hide();
-// });
-
-// $('.blog-link').click( function() {
-//     $.ajax({
-//     url: "/blog"
-//   // context: $('.blog-link')
-// });
-// });
-
-// .done(function() {
-//   $( this ).addClass( "done" );
+// $('.fa-envelope').parent('.circle-link').on('click', function() {
+//     // alert('clicked');
+//   ga('send', 'event', 'button', 'click', 'email send');
 // });

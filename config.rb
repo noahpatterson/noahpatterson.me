@@ -141,4 +141,4 @@ end
 
   # activate :spellcheck
 
-  activate :imageoptim
+  # activate :imageoptim

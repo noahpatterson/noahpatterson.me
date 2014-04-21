@@ -5,10 +5,90 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2013-04-25T22:46:00Z</updated>
+  <updated>2014-04-21T17:54:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Using Middleman to Design a Static Personal Website, Part 1</title>
+    <link rel="alternate" href="http://blog.url.com/blog/code/using-middleman-to-design-a-static-personal-website-part-1/"/>
+    <id>http://blog.url.com/blog/code/using-middleman-to-design-a-static-personal-website-part-1/</id>
+    <published>2014-04-21T17:54:00Z</published>
+    <updated>2014-04-21T14:17:29-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Ever wanted a simple, fast personal site to showcase your personal brand? Here is how I used &lt;a href="http://middlemanapp.com/"&gt;Middleman&lt;/a&gt; to create a custom, statically generated personal site and blog.&lt;/p&gt;
+
+&lt;p&gt;Recently I decided that my website needed a bit more love. As I am getting more involved in the web development community, I needed a place that people could find and contact me. My site didn&amp;rsquo;t have to be complex. I needed something simple, fast, and a place to build from.&lt;/p&gt;
+
+&lt;p&gt;This article is split into two posts. The &lt;a href="http://noahpatterson.me/blog/code/using-middleman-to-design-a-static-personal-website-part-1/"&gt;first post&lt;/a&gt; is about the project and the process. The second post (coming soon!) is how I used Middleman to do it. The second post will also include some helpful tips and tricks.&lt;/p&gt;
+
+&lt;h2&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;A good list of requirements with use cases is important at the start of any project. I had a few basic needs that I started out with:&lt;/p&gt;
+
+&lt;h3&gt;Content&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My name&lt;/li&gt;
+&lt;li&gt;A small blurb about me i.e. the sell&lt;/li&gt;
+&lt;li&gt;Email contact&lt;/li&gt;
+&lt;li&gt;Social&lt;/li&gt;
+&lt;li&gt;Blog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The content is pretty straightforward, normal things that most people would want out of a personal site. Keeping it simple I decided not to implement a project page just yet. Showcasing some of my best work might be important, but I also know other web developers are keen on browsing &lt;a href="https://github.com/noahpatterson"&gt;Github repositories &lt;/a&gt; for this information.&lt;/p&gt;
+
+&lt;h3&gt;Tech&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Mobile first, responsive &lt;/p&gt;
+
+&lt;p&gt;In a world of web development conferences, meetups and happy hours people will primarily access my site on mobile. Mobile first allows these experiences to be easy and clean.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Static site&lt;/p&gt;
+
+&lt;p&gt;While the writing and design of the site is aided by dynamic content and templating, once the site is published it is a straightforward document based website. I wanted to use static sites for how quickly they load once published. This approach isn&amp;rsquo;t always the easiest. You need to be comfortable with html, css, command line, and markdown. Unlike &lt;a href="http://wordpress.org/"&gt;Wordpress&lt;/a&gt; or some other &lt;a href="http://en.wikipedia.org/wiki/Content_management_system"&gt;CMS&lt;/a&gt; the writing and publishing is done via the command line and could be unfriendly to a non-developer.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://pages.github.com/"&gt;Github pages&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github pages is an awesome resource from the people at Github. If you have a simple static site you can deploy the site to Github&amp;rsquo;s servers. You&amp;rsquo;ll end up with web hosting, version control, collaboration options, and issue tracking for free! Win win.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ruby&lt;/p&gt;
+
+&lt;p&gt;As I dive deeper and deeper into the world of Ruby I want to explore all areas that the language covers. I&amp;rsquo;ve already done Rails and Ruby programs &lt;a href="https://github.com/noahpatterson/flickrUpload"&gt;FlickrUpload&lt;/a&gt;, so I wanted to explore other ruby technologies. (I am still learning and working on this, I absolutely have more work to do).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The technology I wanted to use was a bit more personal and opinionated. I am firm believer that projects will solidify knowledge that tutorials or blog posts summarized. The goal of the site was not to only have an awesome site to showcase myself, but to also to teach myself more about web design, static sites, &lt;a href="https://pages.github.com/"&gt;Github pages&lt;/a&gt; and ruby that isn&amp;rsquo;t rails.&lt;/p&gt;
+
+&lt;h3&gt;Use cases and user personas&lt;/h3&gt;
+
+&lt;p&gt;If I learned anything from the the front-end development course I took at &lt;a href="http://www.thinkful.com/"&gt;Thinkful&lt;/a&gt; is that use cases and user personas are key to making sure a project is designed for the users. I needed a site that would allow people to contact me and read my blog. Here are the use cases I created:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Fellow web developer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As a fellow web developer and someone that understands technology &lt;em&gt;Fellow web developer&lt;/em&gt; is primarily interested in connecting with me via social media. &lt;em&gt;Fellow web developer&lt;/em&gt; also wants to see some of the projects that I have worked on. &lt;em&gt;Fellow web developer&lt;/em&gt; understands Github is a great place to do that. &lt;em&gt;Fellow web developer&lt;/em&gt; would understand any quirky easter eggs in my design.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The Googler&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Googler&lt;/em&gt; has a problem. They have been trying for hours to solve a bug in their application. They&amp;rsquo;ve found nothing be unanswered Stack Overflow questions. And they don&amp;rsquo;t need &lt;a href="http://www.hulu.com/watch/536145"&gt;more cowbell&lt;/a&gt;. Luckily for &lt;em&gt;The Googler&lt;/em&gt; they found a post on my blog about their specific problem.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The Tweeter&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://birds.audubon.org/birdid/search#block-facetapi-FT0LhKpqhCSyyrwU4uxdyeyJe96iSqUf"&gt;Chirp, whistle, hi&amp;hellip;&lt;/a&gt; &lt;em&gt;The Tweeter&lt;/em&gt; knows all of the calls of the social web. &lt;em&gt;The Tweeter&lt;/em&gt; constantly refreshes Twitter for the best blog posts their peers are recommending. &lt;em&gt;The Tweeter&lt;/em&gt; will find links to my blog as well.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The Employer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Who is this guy and how can he help me?&amp;rdquo; is &lt;em&gt;The Employer&amp;rsquo;s&lt;/em&gt; primary question. They want to see my work and learn more about me. &lt;em&gt;The Employer&lt;/em&gt; wouldn&amp;rsquo;t necessarily understand the quirky easter eggs in my design and would be confused why the code was showing. They would primarily be interested in the blog and Github link.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Is that all?&lt;/h2&gt;
+
+&lt;p&gt;With a good base to start I knew I could always add more scope and user personas as the project was further along. I want the project to grow as it needs to. If new requirements show up later, it shouldn&amp;rsquo;t be difficult to work out  a new scope and any new user personas.&lt;/p&gt;
+
+&lt;h2&gt;Fin&lt;/h2&gt;
+
+&lt;p&gt;Hopefully this has given you an idea of how I started this project and some of the processes that went into brainstorming it. In the next part we&amp;rsquo;ll go over the actual implementation and I&amp;rsquo;ll give you some tips and tricks that I discovered along the way.&lt;/p&gt;
+
+&lt;h2&gt;Part 2 Coming Soon!&lt;/h2&gt;
+</content>
+  </entry>
   <entry>
     <title>Immersive Meetups</title>
     <link rel="alternate" href="http://blog.url.com/blog/learning/immersive-meetups/"/>
@@ -255,24 +335,6 @@
 &lt;p&gt;&lt;a href="http://css-tricks.com/all-about-floats/"&gt;Css Tricks blog post about floats&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span&gt;Photo credit:&amp;nbsp;&lt;/span&gt;&lt;a href="http://www.flickr.com/photos/boobook48/3615827503/"&gt;boobook48&lt;/a&gt;&lt;span&gt;&amp;nbsp;/&amp;nbsp;&lt;/span&gt;&lt;a href="http://foter.com/Water/"&gt;Foter.com&lt;/a&gt;&lt;span&gt;&amp;nbsp;/&amp;nbsp;&lt;/span&gt;&lt;a href="http://creativecommons.org/licenses/by-nc-nd/2.0/"&gt;CC BY-NC-ND&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Full of Think</title>
-    <link rel="alternate" href="http://blog.url.com/blog/learning/full-of-think/"/>
-    <id>http://blog.url.com/blog/learning/full-of-think/</id>
-    <published>2013-04-12T00:19:00Z</published>
-    <updated>2014-04-19T14:56:37-04:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;I have recently started my web development training at Thinkful and everything is going well! Thinkful is a startup focused on giving more structure to highly motivated learners. Thinkful uses the depth of self-learning HTML, CSS, and javascript resources that MOOCS are providing. &lt;/p&gt;
-
-&lt;p&gt;Likely you are having the same reaction as I did. I can already access all of that content myself and a lot of it for free. With quality MOOCS like Treehouse and Code School springing up faster that April flowers, what makes Thinkful different? Or why should I pay for this?&lt;/p&gt;
-
-&lt;p&gt;Again Thinkful is focused on &amp;lsquo;highly motivated learners&amp;rsquo;. What they give highly motivated learners is some structure to their learning. Personally I have found that most MOOCS give you a lot of information, exercises, and/or lessons to consume but they don&amp;rsquo;t do a good job leading you down the right path. In contrast Thinkful provides this structure. They give you projects to complete in each Unit. This allows you to really hone the skills you are learning. They also provide Mentors that have industry expertise to help guide you when you get stuck as well as give feedback on your projects. I agree with Thinkful. For me, the highly motivated learner, this is what I need.&lt;/p&gt;
-
-&lt;p&gt;I will keep this blog updated as the course goes along. We will see where we are at the end!&lt;/p&gt;
 </content>
   </entry>
 </feed>

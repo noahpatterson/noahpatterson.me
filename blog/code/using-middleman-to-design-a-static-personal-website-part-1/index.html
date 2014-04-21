@@ -1,0 +1,204 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>Using Middleman to Design a Static Personal Website, Part 1</title>
+    <meta name="description" content="Noah Patterson's Homepage and Blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../../../stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../../../stylesheets/highlight.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://noahpatterson.me/javascripts/modernizr-2.6.2.min.js"></script>
+    
+  </head>
+  
+  <body class="blog blog_code blog_code_using-middleman-to-design-a-static-personal-website-part-1 blog_code_using-middleman-to-design-a-static-personal-website-part-1_index">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NXKSDT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NXKSDT');</script>
+  <!-- End Google Tag Manager -->
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+    <header class='article-view'>
+      <div class="open-menu">
+          <span class='open-btn circle-link'><i class=" fa fa-bars"></i></span>
+          <span class="close-btn circle-link"><i class=" fa fa-times"></i></span>
+      </div>
+
+      <nav class="main-nav">
+          <ul>
+              <span class="link_to_example link_to_start hint--top ruby-style" data-hint="Example: Rails link_to">
+                  <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to" alt="Example of a rails link_to method">&lt%= link_to</a>
+              </span>
+              <li >
+                  <a class="circle-link blog-link" href="/blog">Blog</a>
+              </li>
+              <li>
+                  <a class='circle-link' href="https://twitter.com/albinosquirrel" title="Noah Patterson's Twitter">
+                      <i class="fa fa-twitter"></i>
+                      <span class="label">Twitter</span>
+                  </a>
+              </li>
+              <li>
+                  <a class='circle-link' href="https://github.com/noahpatterson" title="Noah Patterson's Github">
+                      <i class="fa fa-github"></i>
+                      <span class="label">Github</span>
+                  </a>
+              </li>
+              <li>
+                  <a class='circle-link' href="mailto:n@noahpatterson.me" title="Noah Patterson's Email">
+                      <i class="fa fa-envelope"></i>
+                      <span class="label">Email</span>
+                  </a>
+              </li>
+              <span class="link_to_example link_to_end hint--top ruby-style" data-hint="Example: Rails link_to">
+                  <a href="http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to" alt="Example of a rails link_to method">%&gt</a>
+              </span>
+          </ul>
+      </nav>
+
+      <!-- <div class='title-container'> -->
+    <a href="/" alt='Home' class='title-bar'>
+            <h1>Noah Patterson</h1>
+            <h2>Web Developer</h2>
+    </a>
+<!-- </div> -->
+
+      <section class="intro">
+    <div class="about">
+        <span class="hint--top ruby-style heredoc-top" data-hint="Example: Ruby Heredoc"><a href="http://www.ruby-doc.org/core-2.1.1/doc/syntax/literals_rdoc.html#label-Here+Documents" alt="Example of a ruby heredoc"><<-ABOUT</a></span>
+        <p class='center'>
+            Hello there! I am primarily a Ruby on Rails Developer with a background in data analysis. I am estatic about learning new things. I enjoy long intellectual conversations about complex systems. If it's with a nice meal, even better! Thanks for taking a look around!
+        </p>
+        <span class="hint--top ruby-style heredoc-btm" data-hint="Example: Ruby Heredoc"><a href="http://www.ruby-doc.org/core-2.1.1/doc/syntax/literals_rdoc.html#label-Here+Documents" alt="Example of a ruby heredoc">ABOUT</a></span>
+    </div>
+</section>
+
+
+
+
+    </header>
+
+    <div class="other-title-bar">
+      <a href="/" alt='Home'>
+              <h1>Noah Patterson</h1>
+              <h2>Web Developer</h2>
+      </a>
+    </div>
+
+    <div class="wrapper">
+                <div class="article">
+            <h1>Using Middleman to Design a Static Personal Website, Part 1</h1>
+            <h2>Apr 21 2014</h2>
+            <p>Categories: </p>
+            <ul class='tag-list'>
+                
+                    <li>
+                        <a href="/blog/categories/code/">code</a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog/categories/projects/">projects</a>
+                    </li>
+                
+            </ul>
+            <p>Ever wanted a simple, fast personal site to showcase your personal brand? Here is how I used <a href="http://middlemanapp.com/">Middleman</a> to create a custom, statically generated personal site and blog.</p>
+
+<p>Recently I decided that my website needed a bit more love. As I am getting more involved in the web development community, I needed a place that people could find and contact me. My site didn&rsquo;t have to be complex. I needed something simple, fast, and a place to build from.</p>
+
+<p>This article is split into two posts. The <a href="http://noahpatterson.me/blog/code/using-middleman-to-design-a-static-personal-website-part-1/">first post</a> is about the project and the process. The second post (coming soon!) is how I used Middleman to do it. The second post will also include some helpful tips and tricks.</p>
+
+<h2>Requirements</h2>
+
+<p>A good list of requirements with use cases is important at the start of any project. I had a few basic needs that I started out with:</p>
+
+<h3>Content</h3>
+
+<ul>
+<li>My name</li>
+<li>A small blurb about me i.e. the sell</li>
+<li>Email contact</li>
+<li>Social</li>
+<li>Blog</li>
+</ul>
+
+<p>The content is pretty straightforward, normal things that most people would want out of a personal site. Keeping it simple I decided not to implement a project page just yet. Showcasing some of my best work might be important, but I also know other web developers are keen on browsing <a href="https://github.com/noahpatterson">Github repositories </a> for this information.</p>
+
+<h3>Tech</h3>
+
+<ul>
+<li><p>Mobile first, responsive </p>
+
+<p>In a world of web development conferences, meetups and happy hours people will primarily access my site on mobile. Mobile first allows these experiences to be easy and clean.</p></li>
+<li><p>Static site</p>
+
+<p>While the writing and design of the site is aided by dynamic content and templating, once the site is published it is a straightforward document based website. I wanted to use static sites for how quickly they load once published. This approach isn&rsquo;t always the easiest. You need to be comfortable with html, css, command line, and markdown. Unlike <a href="http://wordpress.org/">Wordpress</a> or some other <a href="http://en.wikipedia.org/wiki/Content_management_system">CMS</a> the writing and publishing is done via the command line and could be unfriendly to a non-developer.</p></li>
+<li><p><a href="https://pages.github.com/">Github pages</a></p>
+
+<p>Github pages is an awesome resource from the people at Github. If you have a simple static site you can deploy the site to Github&rsquo;s servers. You&rsquo;ll end up with web hosting, version control, collaboration options, and issue tracking for free! Win win.</p></li>
+<li><p>Ruby</p>
+
+<p>As I dive deeper and deeper into the world of Ruby I want to explore all areas that the language covers. I&rsquo;ve already done Rails and Ruby programs <a href="https://github.com/noahpatterson/flickrUpload">FlickrUpload</a>, so I wanted to explore other ruby technologies. (I am still learning and working on this, I absolutely have more work to do).</p></li>
+</ul>
+
+<p>The technology I wanted to use was a bit more personal and opinionated. I am firm believer that projects will solidify knowledge that tutorials or blog posts summarized. The goal of the site was not to only have an awesome site to showcase myself, but to also to teach myself more about web design, static sites, <a href="https://pages.github.com/">Github pages</a> and ruby that isn&rsquo;t rails.</p>
+
+<h3>Use cases and user personas</h3>
+
+<p>If I learned anything from the the front-end development course I took at <a href="http://www.thinkful.com/">Thinkful</a> is that use cases and user personas are key to making sure a project is designed for the users. I needed a site that would allow people to contact me and read my blog. Here are the use cases I created:</p>
+
+<ol>
+<li><p><strong>Fellow web developer</strong></p>
+
+<p>As a fellow web developer and someone that understands technology <em>Fellow web developer</em> is primarily interested in connecting with me via social media. <em>Fellow web developer</em> also wants to see some of the projects that I have worked on. <em>Fellow web developer</em> understands Github is a great place to do that. <em>Fellow web developer</em> would understand any quirky easter eggs in my design.</p></li>
+<li><p><strong>The Googler</strong></p>
+
+<p><em>The Googler</em> has a problem. They have been trying for hours to solve a bug in their application. They&rsquo;ve found nothing be unanswered Stack Overflow questions. And they don&rsquo;t need <a href="http://www.hulu.com/watch/536145">more cowbell</a>. Luckily for <em>The Googler</em> they found a post on my blog about their specific problem.</p></li>
+<li><p><strong>The Tweeter</strong></p>
+
+<p><a href="http://birds.audubon.org/birdid/search#block-facetapi-FT0LhKpqhCSyyrwU4uxdyeyJe96iSqUf">Chirp, whistle, hi&hellip;</a> <em>The Tweeter</em> knows all of the calls of the social web. <em>The Tweeter</em> constantly refreshes Twitter for the best blog posts their peers are recommending. <em>The Tweeter</em> will find links to my blog as well.</p></li>
+<li><p><strong>The Employer</strong></p>
+
+<p>&ldquo;Who is this guy and how can he help me?&rdquo; is <em>The Employer&rsquo;s</em> primary question. They want to see my work and learn more about me. <em>The Employer</em> wouldn&rsquo;t necessarily understand the quirky easter eggs in my design and would be confused why the code was showing. They would primarily be interested in the blog and Github link.</p></li>
+</ol>
+
+<h2>Is that all?</h2>
+
+<p>With a good base to start I knew I could always add more scope and user personas as the project was further along. I want the project to grow as it needs to. If new requirements show up later, it shouldn&rsquo;t be difficult to work out  a new scope and any new user personas.</p>
+
+<h2>Fin</h2>
+
+<p>Hopefully this has given you an idea of how I started this project and some of the processes that went into brainstorming it. In the next part we&rsquo;ll go over the actual implementation and I&rsquo;ll give you some tips and tricks that I discovered along the way.</p>
+
+<h2>Part 2 Coming Soon!</h2>
+
+        </div>
+
+    </div>
+
+    <footer>
+    <p>Inspiration from <a href="https://github.com/daleanthony/Uno">Uno</a></p>
+    <p>Built with <a href="http://middlemanapp.com/">Middleman</a></p>
+</footer>
+  </body>
+  <script src="../../../javascripts/all.js" type="text/javascript"></script>
+  <!-- <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50145259-1');
+    ga('send', 'pageview');
+
+  </script> -->
+</html>

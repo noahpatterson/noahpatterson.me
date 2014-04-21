@@ -42,11 +42,10 @@ html {
 }
 
 body {
+    @include background_image;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    // background-color: #078691 ;
-    @include background_image;
     font-family: "MavenProLight-300", serif;
     color: #2B4146;
     width: 100%;
@@ -90,71 +89,6 @@ header {
         }
 }
 
-.title-bar-styles {
-    @extend .center;
-    order: 2;
-    padding: 1em;
-    text-decoration: none;
-    color: inherit;
-    h1, h2 {
-        padding: 0;
-        margin: 0;
-    }
-}
-
-.title-bar {
-    @extend .title-bar-styles;
-}
-
-.other-title-bar {
-    display: none;
-}
-
-/*body*/
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.intro {
-    margin-top: 2em;
-    align-self: center;
-    order: 3;
-    width: 100%;
-    h1, h2 {
-        letter-spacing: 1px;
-        margin: 0;
-    }
-
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    p {
-        margin: 0;
-    }
-
-    .about {
-        margin: 1.25em;
-        a {
-            color: #33BEB1;
-        }
-    }
-
-    .heredoc-top {
-        margin-bottom: .5em;
-    }
-
-    .heredoc-btm {
-        margin-top: .5em;
-    }
-}
-
 .circle-link {
     cursor: pointer;
     text-decoration: none;
@@ -193,6 +127,72 @@ header {
     }
 }
 
+.title-bar-styles {
+    @extend .center;
+    order: 2;
+    padding: 1em;
+    text-decoration: none;
+    color: inherit;
+    h1, h2 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.title-bar {
+    @extend .title-bar-styles;
+}
+
+.other-title-bar {
+    display: none;
+}
+
+/*body*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/*intro*/
+.intro {
+    margin-top: 2em;
+    align-self: center;
+    order: 3;
+    width: 100%;
+    h1, h2 {
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .about {
+        margin: 1.25em;
+        a {
+            color: #33BEB1;
+        }
+    }
+
+    .heredoc-top {
+        margin-bottom: .5em;
+    }
+
+    .heredoc-btm {
+        margin-top: .5em;
+    }
+}
+
 //blog entries
 .blog-entries {
     background-color: #fff;
@@ -227,8 +227,6 @@ header {
 }
 
 .blog-entry {
-    // display: flex;
-    // flex-direction: column;
     img {
         display: none;
     }
@@ -260,7 +258,7 @@ header {
         list-style-type: lower-alpha;
     }
 
-    ul {
+    .tag-list {
         padding-bottom: 1em;
         list-style-type: none;
         li {

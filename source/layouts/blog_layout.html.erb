@@ -3,7 +3,7 @@
             <h1><%= current_article.title %></h1>
             <h2><%= current_article.date.strftime('%b %e %Y') %></h2>
             <p>Categories: </p>
-            <ul>
+            <ul class='tag-list'>
                 <% current_article.tags.each do |tag| %>
                     <li>
                         <%= link_to( tag , tag_path(tag) ) %>

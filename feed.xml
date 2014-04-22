@@ -5,16 +5,52 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2014-04-21T17:54:00Z</updated>
+  <updated>2014-04-22T12:25:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Railsconf 2014 Notes</title>
+    <link rel="alternate" href="http://blog.url.com/blog/rails/railsconf_2014_notes/"/>
+    <id>http://blog.url.com/blog/rails/railsconf_2014_notes/</id>
+    <published>2014-04-22T12:25:00Z</published>
+    <updated>2014-04-22T08:41:32-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Railsconf 2014 is here! I&amp;rsquo;ll be taking notes throughout the conference. The goal is to summarize the things and post them here. I hope you are ready!&lt;/p&gt;
+
+&lt;h2&gt;Day 0 - Scholars and Guides&lt;/h2&gt;
+
+&lt;p&gt;The first evening at railsconf 2014 was spent hanging out and getting acquainted with our guides. Railsconf has this awesome scholarship program where new members to the rails community can be paired with a more experienced rails programmer. The goal is to integrate, introduce, socialize and teach the mentee.&lt;/p&gt;
+
+&lt;p&gt;I was lucky to hang out with an awesome group of individuals from many different backgrounds. There were guides across the industry from &lt;a href="https://www.groupon.com/"&gt;Groupon&lt;/a&gt; to &lt;a href="http://www.enova.com/"&gt;Enova&lt;/a&gt;. There were scholars from very new to just graduated &lt;a href="http://flatironschool.com/"&gt;Flat Iron School&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;How do I find a job? Am I hireable?&lt;/h3&gt;
+
+&lt;p&gt;I had great conversation about how one makes the jump from self-teaching and personal projects to being hired as a developer. I was lucky to have some people in the room that hire for their current job. There was a general theme that if you are a developer that shows a propensity to learn and stay current, then it will hard to &lt;em&gt;not&lt;/em&gt; find a job. Sure I summarize and it is never as simple as that, but these were encouraging words for someone just entering the field.&lt;/p&gt;
+
+&lt;h4&gt;Two Camps&lt;/h4&gt;
+
+&lt;p&gt;Though there was a general theme, there were two different camps. One camp thought that there is only so far a developer, not traditionally trained in computer science, could go. The argument was around certain challenges that are hard problems and having computer science as a background help you solve those problems faster.&lt;/p&gt;
+
+&lt;p&gt;The other side really beat home the point that if you are excited about the company and committed to learning then a &lt;em&gt;good&lt;/em&gt; company would be excited to train/hire you. A &lt;em&gt;good&lt;/em&gt; company is one that follows the philosophy that excited, knowledgeable people make the best developers. If the company places too much emphasis in mundane computer science tests, then they are not the kind of company you want to work for.&lt;/p&gt;
+
+&lt;p&gt;This was a great conversation and really puts perspective on where I should focus on my learning.&lt;/p&gt;
+
+&lt;p&gt;All in all it was a great experience and if this is a prelude to the actual conference, then I am going to meet some amazing people!&lt;/p&gt;
+
+&lt;h2&gt;Day 1&lt;/h2&gt;
+
+&lt;h1&gt;More coming soon! Check back!&lt;/h1&gt;
+</content>
+  </entry>
   <entry>
     <title>Using Middleman to Design a Static Personal Website, Part 1</title>
     <link rel="alternate" href="http://blog.url.com/blog/code/using-middleman-to-design-a-static-personal-website-part-1/"/>
     <id>http://blog.url.com/blog/code/using-middleman-to-design-a-static-personal-website-part-1/</id>
     <published>2014-04-21T17:54:00Z</published>
-    <updated>2014-04-21T14:17:29-04:00</updated>
+    <updated>2014-04-21T13:17:29-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -94,7 +130,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/learning/immersive-meetups/"/>
     <id>http://blog.url.com/blog/learning/immersive-meetups/</id>
     <published>2013-04-25T22:46:00Z</published>
-    <updated>2014-04-19T14:57:14-04:00</updated>
+    <updated>2014-04-19T13:57:14-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -132,7 +168,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/css/wmata-nextbus-redesign/"/>
     <id>http://blog.url.com/blog/css/wmata-nextbus-redesign/</id>
     <published>2013-04-20T19:03:00Z</published>
-    <updated>2014-04-19T15:40:08-04:00</updated>
+    <updated>2014-04-19T14:40:08-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -228,7 +264,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/css/wmata-dc-next-bus-app-sketches/"/>
     <id>http://blog.url.com/blog/css/wmata-dc-next-bus-app-sketches/</id>
     <published>2013-04-12T16:50:00Z</published>
-    <updated>2014-04-19T14:57:01-04:00</updated>
+    <updated>2014-04-19T13:57:01-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -242,7 +278,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/learning/thinkful-update/"/>
     <id>http://blog.url.com/blog/learning/thinkful-update/</id>
     <published>2013-04-12T01:00:00Z</published>
-    <updated>2014-04-19T15:36:17-04:00</updated>
+    <updated>2014-04-19T14:36:17-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -253,88 +289,6 @@
 &lt;p&gt;One example that continues to irk me is the lack of decently designed mobile restaurant pages in Washington DC. Almost every restaurant website that I have been to recently has redirected me to a mobile site, given me unclear instructions on how to view the full site, not provided a responsive layout, and is generally crap. The sites are ugly, not functional, and usually only three buttons: menu, directions, contact us. OK so you included menu, that&amp;rsquo;s probably why I am there anyway &lt;click&gt; oh it&amp;rsquo;s just a .pdf that takes forever to download and is out of date? Great. Sigh seriously they are all crap. I wonder if any other cities have this problem.&lt;/p&gt;
 
 &lt;p&gt;Now it&amp;rsquo;s back to trying to find dinner on my phone &lt;headdesk&gt;&amp;hellip;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Trouble Floating</title>
-    <link rel="alternate" href="http://blog.url.com/blog/css/trouble-floating/"/>
-    <id>http://blog.url.com/blog/css/trouble-floating/</id>
-    <published>2013-04-12T00:34:00Z</published>
-    <updated>2014-04-19T15:37:58-04:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img alt="image" src="/images/trouble_floating.jpg" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;Floats. What an interesting concept. I can see how the standard designers were really excited about this one when they thought up HTML styles:&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&amp;ldquo;Do you want that picture to magically snap up and against the previous&amp;nbsp;&lt;/span&gt;column.&amp;rdquo;&lt;span&gt;&amp;nbsp; No problem. &amp;ldquo;Wait so you&amp;rsquo;re telling me we created a way to mimic a print design standard but for the web and we made it dead simple to do? &amp;rdquo; Absolutely.&lt;/span&gt;&lt;/p&gt;
-&lt;pre class="highlight css"&gt;&lt;span class="c"&gt;/*awesome.css*/&lt;/span&gt;
-&lt;span class="nc"&gt;.awesome&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nl"&gt;float&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;left&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;span&gt;All day long! &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&amp;ldquo;But what&amp;rsquo;s the catch? Nothing in CSS is that simple except maybe &lt;code&gt; font-weight: bold&lt;/code&gt;&amp;nbsp;except, wait you can use a number too, and you what if the typography is bold looking to begin with&amp;hellip;grggle&amp;hellip;glug&amp;hellip;&lt;/span&gt;&lt;/p&gt;
-&lt;pre class="highlight css"&gt;&lt;span class="c"&gt;/*explode.css*/&lt;/span&gt;
-&lt;span class="nt"&gt;Head&lt;/span&gt;&lt;span class="nc"&gt;.explode&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nl"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="no"&gt;red&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;span&gt;Woah, calm down! You&amp;rsquo;re right things are more complicated than they seem at first and Floats are no different. Luckily the internet is a big place full of smart people that figure this stuff out. Let&amp;rsquo;s go into some more detail.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&lt;strong&gt;What does &amp;lsquo;Float&amp;rsquo; mean?&lt;/strong&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;As I eluded to earlier, to &amp;quot;float&amp;rdquo; something is to literally move it out of normal &amp;ldquo;flow&amp;rdquo;. This forces the element to fill all&amp;nbsp;available&amp;nbsp;space next to the previous element. Here is a more&amp;nbsp;official&amp;nbsp;definition:&lt;/span&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-    &lt;p&gt;The float CSS property specifies that an element should be taken from the normal flow and placed along the left or right side of its container, where text and inline elements will wrap around it.&lt;/p&gt;
-    &lt;div&gt;&lt;a href="https://developer.mozilla.org/en-US/docs/CSS/float"&gt;Mozilla Definition&lt;/a&gt;&lt;/div&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;span&gt;Simply put the browser says &amp;ldquo;how big is my container?&amp;rdquo; (er there&amp;rsquo;s a pun there I think). Next the browser looks at the size of the item you are trying to move(float) and at the size of the previous item in the container. If the previous item did not take all of the containers space&amp;nbsp;&lt;strong&gt;and&amp;nbsp;&lt;/strong&gt;the moving item is not too large, then the item is placed beside the previous item. Finally text or other elements will continue to flow around the floated element. This is similar to how we see text flow around images in newspapers.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why not position:&amp;nbsp;relative&amp;nbsp;everything?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;While we could potentially &lt;code&gt;relative&lt;/code&gt; or &lt;code&gt;absolute&lt;/code&gt; position all our elements in the container, but this would make our page very brittle. Depending on how we code the position, realizing the window could mess up the look of the page. Also what if the floated elements content is longer sometimes? Then the position might not make any sense. Finally even with the coming caveats floating is much simpler to use.&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&lt;strong&gt;Common Uses&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;Floats are often used to place images inline beside each other. To the extreme, sites like &lt;a href="http://pinterest.com/"&gt;Pinterest&lt;/a&gt; and apps like &lt;a href="http://flipboard.com/"&gt;Flipboard&lt;/a&gt;&amp;nbsp;use a float-like concept to position their articles/items. Floats can also be used to place columns on a page.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&lt;strong&gt;Clearfix and You&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;Often floated elements ignore the fact they are in a container, then a container will shrink to only the size of the non-floated elements. This makes the floated elements look like they are overflowing from the container.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;This is often(always?) counter to how people think the page should look after floating. I often think that this is one of those ignored bugs that the standard designers don&amp;rsquo;t care enough to fix. Maybe this is because the &amp;ldquo;clearfix&amp;rdquo; is so readily&amp;nbsp;available&amp;nbsp;or that they will be replacing the functionality later anyway. Maybe they are fixing it with a&amp;nbsp;&lt;a href="http://www.w3.org/TR/css3-flexbox/"&gt;Flexbox&lt;/a&gt;&amp;nbsp;like solution.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;Here is the latest clearfix:&lt;/span&gt;&lt;/p&gt;
-&lt;pre class="highlight css"&gt;&lt;span class="c"&gt;/*clearfix.css*/&lt;/span&gt;
-&lt;span class="nc"&gt;.group&lt;/span&gt;&lt;span class="nd"&gt;:after&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nl"&gt;content&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;""&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-        &lt;span class="nl"&gt;display&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;table&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-        &lt;span class="nl"&gt;clear&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;both&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href="http://css-tricks.com/snippets/css/clear-fix/"&gt;Css Tricks again: Clearfixes through time!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;The fix is clear, all you have to do is hack together these seemingly unrelated CSS properties and blam it works (mostly). The first time I looked at the clearfix &amp;ldquo;fix&amp;rdquo; it seemed if the &lt;/span&gt;&lt;a href="http://en.wikipedia.org/wiki/Infinite_monkey_theorem"&gt;Monkey&amp;rsquo;s Writing Shakespeare&lt;/a&gt;&lt;span&gt; decided to take up web design and figured out the solution. How did someone figure this one out without just randomly trying things? That is the beauty of designing for the web. A bunch of smart people with time and&amp;nbsp;&lt;/span&gt;enthusiasm&lt;span&gt;&amp;nbsp;continually try to solve problems and share the solutions!&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Hopefully this helps explain away some of the confusion about floats, I know it helped me!&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://learnlayout.com/float.html"&gt;Learn Layout&lt;/a&gt;&amp;nbsp;This is a great tutorial about web layout and includes guides for floating.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://css-tricks.com/all-about-floats/"&gt;Css Tricks blog post about floats&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span&gt;Photo credit:&amp;nbsp;&lt;/span&gt;&lt;a href="http://www.flickr.com/photos/boobook48/3615827503/"&gt;boobook48&lt;/a&gt;&lt;span&gt;&amp;nbsp;/&amp;nbsp;&lt;/span&gt;&lt;a href="http://foter.com/Water/"&gt;Foter.com&lt;/a&gt;&lt;span&gt;&amp;nbsp;/&amp;nbsp;&lt;/span&gt;&lt;a href="http://creativecommons.org/licenses/by-nc-nd/2.0/"&gt;CC BY-NC-ND&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>

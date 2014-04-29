@@ -35,40 +35,6 @@ end
 page "/feed.xml", layout: false
 page "/admin/*", :layout => "admin"
 
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
-
-###
-# Page options, layouts, aliases and proxies
-###
-
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", layout: false
-#
-# With alternative layout
-# page "/path/to/file.html", layout: :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-# Proxy pages (http://middlemanapp.com/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
-#  which_fake_page: "Rendering a fake page with a local variable" }
-
-###
-# Helpers
-###
-
 # pretty urls
 activate :directory_indexes
 
@@ -90,6 +56,16 @@ end
 #     "Helping"
 #   end
 # end
+
+helpers do
+  def save_markdown
+    #add line that takes content from input and saves it to a blog file
+  end
+  
+  def preview_blog
+    #add line that opens a preview of the rendered markdown blog
+  end
+end
 
 set :css_dir, 'stylesheets'
 
@@ -122,10 +98,6 @@ configure :build do
     config.browsers = ['last 2 versions', 'Explorer >= 9']
     #config.cascade  = false
   end
-
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
 end
 
 set :url_root, 'http://noahpatterson.me'
@@ -139,9 +111,3 @@ activate :deploy do |deploy|
   # deploy.branch   = "custom-branch" # default: gh-pages
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
 end
-
-
-#ignore "/admin/*"
-  # activate :spellcheck
-
-  # activate :imageoptim
